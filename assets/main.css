@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: #eee;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container .title h1 {
+  margin: 0;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  background-color: #000;
+  height: 100px;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+.link-item {
+  margin-right: 20px;
+}
+
+.link-item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.link-item a:hover {
+  color: #ccc;
+}
+
+.row-actions {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0 30px;
+}
+
+.action-button {
+  text-decoration: none;
+  color: #111;
+  cursor: pointer;
+  padding: 5px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.action-button:hover {
+  border: 1px solid #aaa;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 50vw;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.form .label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.form-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-button {
+  border: 1px solid #eee;
+  cursor: pointer;
+  background-color: #333;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 600;
+}
